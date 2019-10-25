@@ -6,7 +6,7 @@ except ImportError:
     print("NOT FOUND")
 query=' '.join(sys.argv[1:])   
 for j in search(query,tld="com",num=1,stop=1):
-    pyperclip.copy(j)
-os.putenv("VARVAR",pyperclip.paste())
+    resultaddress=j
+os.putenv("VARVAR",resultaddress)
 os.system("ytdldirect.bat")    
     
