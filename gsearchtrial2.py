@@ -1,5 +1,5 @@
 #! python3
-import pyperclip,sys,os
+import sys,os
 try:
     from googlesearch import search
 except ImportError:
